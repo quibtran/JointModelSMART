@@ -1,7 +1,6 @@
-# Joint_model_SMART
+# Joint Model for a Sequential Multiple Assignment Randomize Trial with survival outcomes
 
-This repo consists of the R codes to simulate SMART data with survival outcomes, fit the joint model described in "Joint Modeling and Multiple Comparisons with
-the Best of data from a SMART with Survival Outcomes" by Qui Tran, Alex Tsodikov, and Kelley M. Kidwell, and plot the predicted survival curves agaisnt other methods by Lunceford et al (2002), Guo & Tsiatis (2005), Tang & Wahed (2015) (available via R package 'DTR').  
+This repo consists of the R codes to simulate SMART data with survival outcomes, fit the joint model described in "Joint Modeling and Multiple Comparisons with the Best of data from a SMART with Survival Outcomes" by Qui Tran, Alex Tsodikov, and Kelley M. Kidwell, and plot the predicted survival curves agaisnt other methods by Lunceford et al (2002), Guo & Tsiatis (2005), Tang & Wahed (2015) (available via R package 'DTR').  
 
 In particular:
 - simSMART.R: Function simSMART() to simulate 2 stage SMART design II with time-to-response and overall survival outcomes from 4 reigmens.
